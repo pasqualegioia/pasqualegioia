@@ -33,7 +33,7 @@
 
 - Research Software Assistant (HiWi) @ [Max Planck Institute for Biophysics](https://www.biophys.mpg.de/en) — contributing to [**cryoCAT**](https://github.com/turonova/cryoCAT) *(📄 paper submission in progress)* and developing <abbr title="Private repository — First public release coming soon!"><code><b>cryoKIT</b></code></abbr> *(🔒 initial release in preparation)*.
 
-- M.Sc. in Cybersecurity @ [Brandenburg University of Technology (BTU)](https://www.b-tu.de/en/)
+- Pursuing a M.Sc. in Cybersecurity @ [Brandenburg University of Technology (BTU)](https://www.b-tu.de/en/)
 
 - B.Sc. in Computer Science Engineering @ [Politecnico di Milano](https://www.polimi.it/en/)
 
@@ -41,7 +41,7 @@
   ━━━━━━━━━━━━ &nbsp; <kbd><b>⏳ SOON · UPCOMING · SOON ⏳</b></kbd> &nbsp; ━━━━━━━━━━━━
 </p>
 
-<img src="https://img.shields.io/badge/UPCOMING_•_JAN_2027-2563EB?style=flat" valign="middle" /> Master's Thesis & Intern @ [Volkswagen AG](https://www.volkswagen-group.com/en) *(Wolfsburg)* — Joining the **Car Communication Security (ESEC 3)** team to work on vehicle communication security and ECU vulnerability testing.
+<!--<img src="https://img.shields.io/badge/UPCOMING_•_JAN_2027-2563EB?style=flat" valign="middle" /> Master's Thesis & Intern @ [Volkswagen AG](https://www.volkswagen-group.com/en) *(Wolfsburg)* — Joining the **Car Communication Security (ESEC 3)** team to work on vehicle communication security and ECU vulnerability testing.-->
 
 ---
 
