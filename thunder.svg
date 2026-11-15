@@ -1,10 +1,15 @@
-<svg width="100%" height="260" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <clipPath id="bannerClip">
-      <rect width="1200" height="260" rx="14" />
+      <rect width="1200" height="100" rx="12" />
     </clipPath>
+    <linearGradient id="stormBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0a1628" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4.5" result="blur" />
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -19,15 +24,10 @@
         0%, 42%, 46%, 85%, 88%, 100% { opacity: 0; }
         43%, 45%, 86% { opacity: 1; }
       }
-      @keyframes stormLight {
-        0%, 18%, 22%, 42%, 46%, 65%, 68%, 85%, 88%, 100% { opacity: 0.35; }
-        19%, 21%, 43%, 45%, 66%, 86% { opacity: 0; }
-      }
       @keyframes blueFlash {
         0%, 18%, 22%, 42%, 46%, 65%, 68%, 85%, 88%, 100% { opacity: 0; }
         19%, 43%, 66%, 86% { opacity: 0.25; }
       }
-      .dark-veil { animation: stormLight 6s infinite; fill: #030712; }
       .electric-flash { animation: blueFlash 6s infinite; fill: #0077FF; }
       .bolt-left { animation: flash1 6s infinite; }
       .bolt-right { animation: flash2 6s infinite; }
@@ -35,26 +35,18 @@
   </defs>
 
   <g clip-path="url(#bannerClip)">
-    
-    <rect class="dark-veil" width="1200" height="260" />
-    <rect class="electric-flash" width="1200" height="260" />
+    <rect width="1200" height="100" fill="url(#stormBg)" />
+    <rect class="electric-flash" width="1200" height="100" />
+    <line x1="40" y1="50" x2="1160" y2="50" stroke="#00529F" stroke-width="1.5" stroke-opacity="0.45" />
 
     <g class="bolt-left" filter="url(#glow)">
-      <polyline points="230,0 195,95 235,105 180,260" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-      <polyline points="230,0 195,95 235,105 180,260" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-      <polyline points="212,55 260,130 248,175" fill="none" stroke="#38BDF8" stroke-width="1.8" />
+      <polyline points="230,0 205,42 235,48 195,100" fill="none" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <polyline points="230,0 205,42 235,48 195,100" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
     <g class="bolt-right" filter="url(#glow)">
-      <polyline points="970,0 1005,90 965,102 1020,260" fill="none" stroke="#0077FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-      <polyline points="970,0 1005,90 965,102 1020,260" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-      <polyline points="988,52 935,125 948,165" fill="none" stroke="#38BDF8" stroke-width="1.8" />
+      <polyline points="970,0 995,40 965,46 1005,100" fill="none" stroke="#0077FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+      <polyline points="970,0 995,40 965,46 1005,100" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </g>
-
-    <linearGradient id="bottomFade" x1="0%" y1="75%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" stop-opacity="0" />
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.85" />
-    </linearGradient>
-    <rect width="1200" height="260" fill="url(#bottomFade)" />
   </g>
 </svg>
